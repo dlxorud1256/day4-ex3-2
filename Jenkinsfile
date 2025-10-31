@@ -5,10 +5,7 @@ pipeline {
     // "any"는 빌드 가능한 아무 노드에서나 실행 가능함
     agent any
 
-    environment {
-        // macOS/Homebrew 환경에서 Node.js, npm 등이 설치된 경로를 인식하도록 PATH 재설정
-        //PATH = "/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
-    }
+    
     
 
     // 🏗️ 실제 작업 단계를 정의하는 블록
